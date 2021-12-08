@@ -15,7 +15,7 @@ namespace CafeCore.Forms
         }
 
         CafeContext _dbContext = new CafeContext();
-        private void KatEkle_Load(object sender, EventArgs e)  
+        private void KatEkle_Load(object sender, EventArgs e)   
         {
             ListeyiDoldur();
         }
