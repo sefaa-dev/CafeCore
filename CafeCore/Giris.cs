@@ -14,7 +14,7 @@ namespace CafeCore
     {
         public Giris()
         {
-            InitializeComponent();  
+            InitializeComponent();       
 
         }
 
