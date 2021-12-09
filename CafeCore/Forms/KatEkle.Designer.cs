@@ -150,7 +150,6 @@ namespace CafeCore.Forms
             this.txtSiraNo.Name = "txtSiraNo";
             this.txtSiraNo.Size = new System.Drawing.Size(207, 25);
             this.txtSiraNo.TabIndex = 3;
-            this.txtSiraNo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSiraNo_KeyPress);
             // 
             // txtMasaSayisi
             // 
@@ -159,7 +158,6 @@ namespace CafeCore.Forms
             this.txtMasaSayisi.Name = "txtMasaSayisi";
             this.txtMasaSayisi.Size = new System.Drawing.Size(207, 25);
             this.txtMasaSayisi.TabIndex = 4;
-            this.txtMasaSayisi.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMasaSayisi_KeyPress);
             // 
             // btnEkle
             // 
@@ -173,7 +171,6 @@ namespace CafeCore.Forms
             this.btnEkle.TabIndex = 5;
             this.btnEkle.Text = "Ekle";
             this.btnEkle.UseVisualStyleBackColor = false;
-            this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
             // 
             // btnGuncelle
             // 
@@ -187,7 +184,6 @@ namespace CafeCore.Forms
             this.btnGuncelle.TabIndex = 7;
             this.btnGuncelle.Text = "Güncelle";
             this.btnGuncelle.UseVisualStyleBackColor = false;
-            this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
             // 
             // btnSil
             // 
@@ -201,7 +197,6 @@ namespace CafeCore.Forms
             this.btnSil.TabIndex = 6;
             this.btnSil.Text = "Sil";
             this.btnSil.UseVisualStyleBackColor = false;
-            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
             // lstKat
             // 
@@ -212,7 +207,6 @@ namespace CafeCore.Forms
             this.lstKat.Size = new System.Drawing.Size(437, 344);
             this.lstKat.TabIndex = 8;
             this.lstKat.UseCompatibleStateImageBehavior = false;
-            this.lstKat.SelectedIndexChanged += new System.EventHandler(this.lstKat_SelectedIndexChanged);
             // 
             // KatEkle
             // 
@@ -239,7 +233,6 @@ namespace CafeCore.Forms
             this.Name = "KatEkle";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Kat Ekleme";
-            this.Load += new System.EventHandler(this.KatEkle_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

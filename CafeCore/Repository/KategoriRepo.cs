@@ -10,5 +10,9 @@ namespace CafeCore.Repository
 {
     public class KategoriRepo : RepositoryBase<Kategori, int>
     {
+        internal object GetAll()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
